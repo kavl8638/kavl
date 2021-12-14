@@ -37,6 +37,6 @@ def send_text(message):
     else:
         bot.send_message(message.chat.id, 'Я не знаю что Вам ответить!')
 
-print('Идет те=ст')
+print('Идет тест')
 
 bot.polling()
